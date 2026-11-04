@@ -225,7 +225,7 @@ export function renderIndex(projects) {
 
 function renderNotFound() {
   const body = `  <main id="main">
-    <section class="poster poster-short">
+    <section class="poster">
       <h1>Nothing at this address.</h1>
       <div class="poster-rule" aria-hidden="true"></div>
       <div class="actions"><a class="button" href="/">See the projects</a></div>

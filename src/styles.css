@@ -95,14 +95,7 @@ a:focus-visible { outline: 2px solid var(--violet); outline-offset: 3px; border-
 .site-header nav a:hover { color: var(--violet); }
 
 /* Poster */
-.poster {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  min-height: min(76vh, 720px);
-  padding-block: 64px 48px;
-}
-.poster-short { min-height: 56vh; }
+.poster { padding-block: clamp(32px, 6vh, 64px) 48px; }
 h1 {
   max-width: 13ch;
   font: 800 clamp(3rem, 10.5vw, 6rem)/1.02 var(--display);
